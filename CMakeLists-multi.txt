@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+set(CMAKE_CXX_FLAGS -std=c++14)
+project(multiAlign)
+
+find_package(Ceres REQUIRED)
+
+# multiAlign
+add_executable(multiAlign multiAlign.cc)
+target_link_libraries(multiAlign Ceres::ceres)
