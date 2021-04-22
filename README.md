@@ -39,7 +39,8 @@ cd ..
 sh ./build/multiAlign
 ```
 
-The raw output will be saved under the folder "/outputs/". To visualize the results, please run "python main.py" and check "experiments/multialign/joint.png".
+The raw output will be saved under the folder "/outputs/". To visualize the results, please run "python main.py" and check "experiments/multialign/joint.png". The results would look like this:
+![sample result](https://github.com/yi-ming-qian/wifi-sfm/blob/main/joint%20(copy).png)
 
 ## Contact
 Please email [https://yi-ming-qian.github.io/](https://yi-ming-qian.github.io/) if you have any problems when running the program. **This porject is still under development.**
